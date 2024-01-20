@@ -42,6 +42,9 @@ const Screen1 = () => {
     }; return (
         <View style={styles.container}>
             <View style={styles.row}>
+                <Card iconName="line-scan" text="Scan Face" screenName="HomeScreen" fullWidth={true}/>
+            </View>
+            <View style={styles.row}>
                 <Card iconName="account-details" text="Attendance" screenName="HomeScreen" />
                 <Card iconName="account-check" text="Check-in/Out" screenName="SettingsScreen" />
             </View>
